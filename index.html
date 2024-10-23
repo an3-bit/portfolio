@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Andrew's Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Andrew <span>Omwenga</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#services">Services</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+            <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                <button>Hire me</button>
+            </div>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+
+    </nav>
+<!--    home section-->
+<!--    <section id="home">-->
+<!--        <div class="main-container">-->
+<!--            <div class="image" data-aos="zoom-out" data-aos-duration="3000">-->
+<!--                <img src="images/andre.2.png" alt="">-->
+<!--            </div>-->
+<!--            <div class="content">-->
+<!--                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey, I'm <span>Andrew</span></h1>-->
+<!--                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span></div>-->
+<!--                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">I am passionate about front-end development and cybersecurity, and I am always eager to learn and create innovative solutions.</p>-->
+<!--                <div class="social-links">-->
+<!--                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>-->
+<!--                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a>-->
+<!--                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>-->
+<!--                    <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-twitter"></i></a>-->
+<!--                </div>-->
+<!--                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">-->
+<!--                    <button>Hire me</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+
+    <section id="home">
+    <div class="main-container">
+        <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+            <img src="images/andre.2.png" alt="Andrew's Profile">
+        </div>
+        <div class="content">
+            <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey, I'm <span>Andrew</span></h1>
+            <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span class="typewriter-text"></span></div>
+            <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">I am passionate about front-end development and cybersecurity, and I am always eager to learn and create innovative solutions.</p>
+            <div class="social-links">
+                <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+<!--            <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">-->
+<!--                <button>Hire me</button>-->
+<!--            </div>-->
+        </div>
+    </div>
+</section>
+
+<!--    about section -->
+   <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1" data-aos="fade-up" data-aos-duration="1500">
+                    <img src="images/andre.1.png" alt="About Andrew">
+                </div>
+                <div class="about-col-2" data-aos="fade-up" data-aos-duration="1500">
+                    <h1>About Me</h1>
+                    <p>
+                        I am a dedicated web developer with a passion for creating dynamic and responsive web applications. With a strong background in cybersecurity, I ensure that the solutions I provide are not only functional but also secure. My mission is to leverage technology to solve real-world problems and enhance user experiences.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--skills section-->
+     <section id="skills">
+        <div class="skills-container">
+            <h1 data-aos="fade-up" data-aos-duration="1500">My Skills</h1>
+            <ul data-aos="fade-up" data-aos-duration="1500">
+                <li>HTML, CSS, JavaScript</li>
+                <li>React.js and Angular</li>
+                <li>Node.js and Express.js</li>
+                <li>Responsive Web Design</li>
+                <li>Cybersecurity Best Practices</li>
+            </ul>
+        </div>
+    </section>
+<!-services section--->
+    <section id="services">
+        <div class="services-container">
+            <h1 data-aos="fade-up" data-aos-duration="1500">Services Offered</h1>
+            <ul data-aos="fade-up" data-aos-duration="1500">
+                <li>Web Development</li>
+                <li>Website Security Audits</li>
+                <li>Responsive Design Implementation</li>
+                <li>Technical Writing and Documentation</li>
+                <li>Consultation on Cybersecurity</li>
+            </ul>
+        </div>
+    </section>
+<!--contact section-->
+    <section id="contact">
+        <div class="contact-container">
+            <h1 data-aos="fade-up" data-aos-duration="1500">Contact Me</h1>
+            <div class="contact-info" data-aos="fade-up" data-aos-duration="1500">
+                <p><i class="fa-solid fa-phone"></i> +254 742048713</p>
+                <p><i class="fa-solid fa-envelope"></i> andrewmogambi12@gmail.com</p>
+                <p><i class="fa-brands fa-github"></i> GitHub: <a href="https://github.com/an3-bit">an3-bit</a></p>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset: 0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
